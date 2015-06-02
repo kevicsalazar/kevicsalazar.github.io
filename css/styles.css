@@ -135,7 +135,8 @@ section {
 	text-align: center;
 }
 #app-screen img{
-	width: 200px;
+	margin-top: 25px;
+	width: 150px;
 }
 #app-description{
 	color: white;	
@@ -180,7 +181,9 @@ footer p{
 	color: #808080;
 	margin-top: 50px;
 }
-
+.row > div{
+	padding: 25px;
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
@@ -195,7 +198,7 @@ footer p{
 		font-size: 20px;
 	}
 	#app-screen img{
-		width: 300px;
+		width: 180px;
 	}
 	#app-description h1{
 		margin-top: 50px;
@@ -222,7 +225,8 @@ footer p{
 		font-size: 22px;
 	}
 	#app-screen img{
-		width: 300px;
+		width: 200px;
+		text-align: center;
 	}
 	#app-description h1{
 		margin-top: 50px;
@@ -235,9 +239,6 @@ footer p{
 	#app-description{
 		text-align: left;
 	}	
-	#app-screen{
-		text-align: center;
-	}
 	.line{
 		border-top: 1px solid;
 		width: 25%; 
