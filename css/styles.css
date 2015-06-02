@@ -1,0 +1,265 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700);
+
+@font-face {
+font-family: 'Lane - Narrow';
+font-style: normal;
+font-weight: normal;
+src: local('Lane - Narrow'), url('../fonts/LANENAR_.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lane - Posh';
+font-style: normal;
+font-weight: normal;
+src: local('Lane - Posh'), url('../fonts/LANEPOSH.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lane - Upper';
+font-style: normal;
+font-weight: normal;
+src: local('Lane - Upper'), url('../fonts/LANEUP__.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Roboto Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Roboto Regular'), url('Roboto-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Roboto Thin';
+font-style: normal;
+font-weight: normal;
+src: local('Roboto Thin'), url('Roboto-Thin.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Roboto Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Roboto Medium'), url('Roboto-Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Roboto Light';
+font-style: normal;
+font-weight: normal;
+src: local('Roboto Light'), url('Roboto-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Roboto Black';
+font-style: normal;
+font-weight: normal;
+src: local('Roboto Black'), url('Roboto-Black.woff') format('woff');
+}
+
+body{
+	background: #232323;
+	font-family: 'Roboto Light';	
+	overflow-x: hidden;
+}
+
+body section:nth-child(2n){
+	background: #232323;
+}
+body section:nth-child(2n+1){
+	background: #161616;	
+}
+
+section {
+	opacity: 0;
+}
+.loading {
+	background: url('../img/ico_loading.gif') no-repeat center center;
+}
+.loaded section{
+	opacity: 1;
+	-webkit-transition: opacity 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out;
+	transition: opacity 300ms ease-out;
+}
+.bcg{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+#main-section .bcg{
+	background:url('../img/image_01.jpg');
+}
+.hsContainer {	
+	background: rgba(0,0,0,0.4);
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.hsContent {
+	max-width: 450px;
+	margin: -150px auto 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+	color: #ebebeb;
+	padding: 0 8%;
+	text-align: center
+}
+.hsContent img{
+	margin-bottom: 50px;
+	width: 150px;
+}
+.hsContent h2{
+	color: #ffffff;
+	font-size: 25px;
+	margin-bottom: 12px;
+}
+.hsContent p {
+	max-width: 400px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+#app-screen,
+#app-description{
+	text-align: center;
+}
+#app-screen img{
+	width: 200px;
+}
+#app-description{
+	color: white;	
+	margin-bottom: 25px;
+}
+#app-description h1{
+	font-size: 30px;
+	font-family: 'Lane - Narrow';
+}
+#app-description p{	
+	display: inline-block;	
+	margin-top: 15px;
+	margin-bottom: 10px;
+	max-width: 450px;
+}
+#app-description span{
+	margin-top:100px;
+}
+.line{
+	border-top:1px solid; 
+	width:50%; 
+}
+.info-orange{
+	color: white;
+}
+.info-orange a{
+	color: orange;
+}
+.l-orange{
+	border-top:1px solid orange; 
+}
+footer{
+	text-align: center;
+	background: #161616;	
+	padding: 50px;
+}
+footer img{
+	opacity: 0.8;
+	width: 100px;
+}
+footer p{
+	color: #808080;
+	margin-top: 50px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+	.hsContent img{
+		width: 180px;
+	}
+	.hsContent h2{
+		font-size: 35px;
+	}
+	.hsContent p {		
+		margin-top: 30px;
+		font-size: 20px;
+	}
+	#app-screen img{
+		width: 300px;
+	}
+	#app-description h1{
+		margin-top: 50px;
+		font-size: 50px;
+	}
+	#app-description p{
+		font-size: 18px;
+	}
+	.l-orange{
+		border-top:1px solid orange; 
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	.hsContent img{
+		width: 200px;
+	}
+	.hsContent h2{
+		font-size: 45px;
+	}
+	.hsContent p {
+		font-size: 22px;
+	}
+	#app-screen img{
+		width: 300px;
+	}
+	#app-description h1{
+		margin-top: 50px;
+		font-size: 50px;
+	}
+	#app-description p{
+		max-width: none;
+		font-size: 18px;
+	}
+	#app-description{
+		text-align: left;
+	}	
+	#app-screen{
+		text-align: center;
+	}
+	.line{
+		border-top: 1px solid;
+		width: 25%; 
+	}
+	#app-description .line{		
+		float: left;
+		width: 50%; 
+	}	
+	.l-orange{
+		border-top:1px solid orange; 
+	}
+	#app-description span{
+		float: right;
+	}
+	
+}
+
+@media (max-width: 992px) {
+
+	.divWithSkrollr{
+	    transform: none !important;
+	}
+
+}
+
