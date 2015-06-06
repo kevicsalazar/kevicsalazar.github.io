@@ -1,0 +1,61 @@
+@font-face {
+font-family: 'Lane - Narrow';
+font-style: normal;
+font-weight: normal;
+src: local('Lane - Narrow'), url('../fonts/LANENAR_.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lane - Posh';
+font-style: normal;
+font-weight: normal;
+src: local('Lane - Posh'), url('../fonts/LANEPOSH.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lane - Upper';
+font-style: normal;
+font-weight: normal;
+src: local('Lane - Upper'), url('../fonts/LANEUP__.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Roboto Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Roboto Regular'), url('Roboto-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Roboto Thin';
+font-style: normal;
+font-weight: normal;
+src: local('Roboto Thin'), url('Roboto-Thin.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Roboto Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Roboto Medium'), url('Roboto-Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Roboto Light';
+font-style: normal;
+font-weight: normal;
+src: local('Roboto Light'), url('Roboto-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Roboto Black';
+font-style: normal;
+font-weight: normal;
+src: local('Roboto Black'), url('Roboto-Black.woff') format('woff');
+}
