@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "life.smartkit.finance",
+      "sha256_cert_fingerprints":
+      ["BC:CD:7A:64:3A:56:03:E6:30:BA:2C:7E:0A:E1:B7:5E:BA:26:26:8D:E3:02:BF:0F:95:76:FE:6C:91:7C:22:55"]
+    }
+  }]
